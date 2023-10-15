@@ -1,5 +1,5 @@
 ﻿body {
-    background-color: #C2ECE0;
+    background-color: #D2E7C8;
 }
 
 .sidenav
@@ -33,8 +33,18 @@
     color: #f1f1f1;
 }
 
-.imageCenter
-{
+.mainIFrame {
+    margin-left: 240px; /* Same as the width of the sidebar */
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.imageCenter {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -42,8 +52,8 @@
 }
 /* Style page content */
 .main {
-    margin-left: 240px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
+    width: 70%;
+    padding: 0px 5px;
 }
 
 h1
