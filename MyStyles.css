@@ -4,5 +4,10 @@
 }
 h1
 {
+    font-size: x-large;
     align-self: center;
+}
+p1
+{
+    font-size: large;
 }
