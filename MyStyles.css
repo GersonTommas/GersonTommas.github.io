@@ -33,17 +33,6 @@
     color: #f1f1f1;
 }
 
-.mainIFrame {
-    margin-left: 240px; /* Same as the width of the sidebar */
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    border: none;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-
 .imageCenter {
     display: block;
     margin-left: auto;
