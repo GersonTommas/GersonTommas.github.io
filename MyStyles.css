@@ -3,11 +3,13 @@
 }
 
 .frameOne {
-    height:100%;
-    width:18%;
-    position:fixed;
-    top:0;
-    left:0;
+    margin-left: 0px;
+    padding-left:0px;
+    height: 100%;
+    width: 18%;
+    position: fixed;
+    top: 0;
+    left: 0;
     overflow-x: hidden;
 }
 .frameTwo {
