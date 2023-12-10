@@ -2,21 +2,45 @@
 
 <html>
 <head>
-    <link rel="stylesheet" href="..\MyStyles.css">
+    <link rel="stylesheet" href="..\MyNavStyle.css">
     <title></title>
 </head>
-<body class="sidenav">
+<body>
+    <img src="..\images\sidenavBackground.jpg" class="background" />
     <!-- Side navigation -->
-    <div>
-        <img src="..\images\TommModsLogo.png" class="imageCenter" style="width:80%"/>
-        <a href="mainpage.html" target="mainFrame">Home</a>
-        <a href="SWF.html" target="mainFrame">SWF</a>
-        <a href="#">Just Shields</a>
-        <a href="#">Realistic Equipment</a>
-        <a href="#">???</a>
-        <a href="#">Donations</a>
-        <a href="contact.html">Contact</a>
-    </div>
+    <h1>Tomm Mods</h1>
 
+    <div class="sidenav">
+        <a href="mainpage.html" target="mainFrame">
+            <img src="..\images\MainPage_Button.png" />
+        </a>
+        <a href="SWF.html" target="mainFrame">
+            <img src="..\images\SWF_Button.png" />
+        </a>
+        <a href="JustShields.html" target="mainFrame">
+            <picture>
+                <source media="(min-width: 300px)" srcset="..\images\JustShields_Button.png" />
+                <img src="..\images\JS_Button.png" />
+            </picture>
+        </a>
+        <a href="RealisticEquipment.html" target="mainFrame">
+            <picture>
+                <source media="(min-width: 300px)" srcset="..\images\RealisticEquipment_Button.png" />
+                <img src="..\images\RE_Button.png" />
+            </picture>
+        </a>
+        <a href="SimpleEquipmentOverhaul.html">
+            <picture>
+                <source media="(min-width: 300px)" srcset="..\images\questionMark_Button.png" />
+                <img src="..\images\qMark_Button.png" />
+            </picture>
+        </a>
+        <a href="Donations.html">
+            <img src="..\images\Donations_Button.png" />
+        </a>
+        <a href="contact.html">
+            <img src="..\images\Contact_Button.png" />
+        </a>
+    </div>
 </body>
 </html>
