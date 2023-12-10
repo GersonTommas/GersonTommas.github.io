@@ -1,6 +1,10 @@
 ﻿body {
     background-color: #D2E7C8;
 }
+hr{
+    width: 85%;
+}
+
 .background {
     position: fixed;
     z-index: -1;
