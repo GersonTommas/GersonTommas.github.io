@@ -1,8 +1,11 @@
 ﻿body {
     background-color: #D2E7C8;
 }
-hr{
+hr {
     width: 85%;
+    height: 2px;
+    color: gray;
+    background-color: gray;
 }
 
 .background {
